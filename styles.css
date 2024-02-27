@@ -1,0 +1,200 @@
+@import url(https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400 
+);
+
+ h1, h2, h3, nav a, nav span, menu li, #social li, footer{
+    font-family: 'Bebas Neue', sans-serif ;
+}
+
+p, dd, li, nav, input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+dt {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+nav a, nav span, menu li, #social li, footer {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgba(122, 191, 191, .5);
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left: 15%;
+    background-color:white;
+    width: 1280px;
+    align-items: center;
+}
+
+nav img {
+    width: 60%;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 5px;
+    border: 2px;
+    align-items: center;
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #EB5428;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.street {
+    background-color: #F2F2F2;
+    position: relative; 
+    margin-top: 245px;
+}
+
+.street img {
+    width: 300px;
+    height: 100%;
+}
+
+.street {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border: 3px solid #EB5428;
+}
+
+.toolbar menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.toolbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.toolbar li:last-child {
+    margin-right: 0;
+}
+
+.toolbar button {
+    background: none;
+    border: none;
+}
+.paragraph {
+    flex-grow: 1;
+    padding-left: 20px;
+    align-items: end;
+}
+
+.details {
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+}
+
+.details h2 {
+    text-align: center;
+}
+
+.pair {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+    margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px; /* Adjust the space between dt and dd pairs */
+}
+
+dt, dd {
+    margin: 10px;
+    margin-right: 130px; /* Remove default margin */
+}
+
+.preparation {
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.ingredients {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.directions {
+    flex: 1;
+    margin-left: 20px; /* Adjust margin as needed */
+    line-height: 2;
+}
+
+#left {
+    text-align: left;
+    padding-left: 3%;
+}
+
+#center {
+    text-align: center;
+}
+
+.dishes {
+    background-color:#7ABFBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dish {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dish img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
