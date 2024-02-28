@@ -70,14 +70,15 @@ nav a {
 
 h1 {
     text-align: center;
-    margin-left: 50%;
+    margin-left: 500px;
+    margin-top: -25px;
     position: absolute;
 }
 
 .street {
     background-color: #F2F2F2;
     position: relative; 
-    margin-top: 245px;
+    margin-top: 197px;
 }
 
 .street img {
@@ -103,7 +104,6 @@ h1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
 
 .toolbar li {
@@ -122,7 +122,6 @@ h1 {
 .paragraph {
     flex-grow: 1;
     padding-left: 20px;
-    align-items: end;
 }
 
 .details {
@@ -136,19 +135,19 @@ h1 {
 
 .pair {
     display: inline-block;
-    margin-right: 20px; /* Adjust as needed */
-    margin-bottom: 10px; /* Add margin bottom for spacing */
+    margin-right: 20px; 
+    margin-bottom: 10px; 
 }
 
 dl {
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 100px; /* Adjust the space between dt and dd pairs */
+    grid-column-gap: 100px; 
 }
 
 dt, dd {
     margin: 10px;
-    margin-right: 130px; /* Remove default margin */
+    margin-right: 130px; 
 }
 
 .preparation {
@@ -163,7 +162,7 @@ dt, dd {
 
 .directions {
     flex: 1;
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px; 
     line-height: 2;
 }
 
@@ -176,25 +175,78 @@ dt, dd {
     text-align: center;
 }
 
-.dishes {
-    background-color:#7ABFBF;
+.dishes-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    text-align: center; 
+    background-color: #7ABFBF;
 }
 
 .dishes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .dish {
-    text-align: center;
-    margin-top: 20px;
+    margin-right: 20px;
+    text-align: left;
 }
 
+
 .dish img {
-    width: 150px; /* Adjust as needed */
-    height: auto;
+    height: 200px;
+}
+.stars {
+    color: orange;
+}
+.search {
+    position: fixed;
+    top: 0px; 
+    right: 290px;
+    background-color: white;
+    border: none; 
+}
+
+.connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    background-color: white;
+    font-size: large;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+    color: #EB5428;
+}
+
+#goodeats {
+    display: flex;
+    align-items: center;
+}
+
+#goodeats img {
+    margin-right: 10px;
+    height: 200px;
+}
+
+#goodeats div {
+    text-align: left;
+}
+
+footer.connect ul {
+    display: flex;
+}
+
+footer.connect ul li {
+    margin-right: 30px;
 }
